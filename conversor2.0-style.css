@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background: black;
+}
+
+.money{
+    width: 320px;
+    height: 350px;
+    display: flex;    
+    margin: 20px auto;  
+    
+}
+
+main{
+    width: 375px;
+    height: 785px;
+    border-radius: 10px;
+    background: rgb(71, 85, 87);
+    margin: 0 auto 40px;
+    padding: 44px 24px 23px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div{ 
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    height: 50px;
+    opacity: 1;
+    border-radius: 4px;
+    color: whitesmoke;
+    background: rgb(71, 85, 87);
+    border-radius: 5px;
+    
+    
+
+}   
+
+select {
+    width: 327px;
+    height: 48px;
+    background:  rgba(91, 112, 162, 0.975);
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 5px;
+    
+    
+}
+
+.initial-value{
+    width: 327px;
+    height: 48px;
+    background:  rgba(91, 112, 162, 0.975);
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+::placeholder{
+    color: whitesmoke;
+    opacity: .5;
+    
+}
+
+button{
+    width: 327px;
+    height: 48px;
+    background:  rgba(91, 112, 162, 0.975);
+    margin: 23px 0;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    color: whitesmoke;
+    cursor: pointer;   
+    border: none;
+    margin-top: 44px;
+}
+
+button:hover{
+    opacity: .8;
+}
+
+button:active{
+    opacity: .6;
+}   
+
+section{
+    width: 327px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.caixa-de-moeda {
+    margin: 14px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.vetor {
+    margin-top: 42px;
+}
+
+
+
+
