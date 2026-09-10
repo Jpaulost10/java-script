@@ -81,3 +81,5 @@ currencySelect2.addEventListener("change", changeCurrency2)
 currencySelect.addEventListener("change", changeCurrency)
 convertButton.addEventListener("click", convertCurrency)
 
+
+
