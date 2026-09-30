@@ -215,9 +215,15 @@ users.forEach((user) => {
     console.log(user.name) // Alice, Bob, Charlie
 }); 
 
+arrow function // 
+
+
+ex: 
+
+const sum = (a, b) => {
+    return a + b
+}
+
+const sum = (a, b) => a + b // mesmo que a funcao acima
+
 */
-
-
-
-
-
